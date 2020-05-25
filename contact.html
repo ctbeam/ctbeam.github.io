@@ -9,12 +9,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+  </head>
 <body>
-    
+   
     <!--Navbar with my name and three page options-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Cameron Beam</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,36 +22,46 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
             </li>
           </ul>
          </div>
       </nav>
 
-      <!--Main about me content-->
-      <div class="container" maxwidth=600px>
-        <!--header taking up the full top row-->
-        <div class="row">
-          <div class="col-md-12">
-              <h1>About Me</h1>
-        </div>
-       
-        <!--picture and content taking up another row-->
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <img src= "Assets/46479730_10105799101555909_3425601082758266880_o.jpg" class=img-fluid>
-          </div>
-          <div class="col">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis urna id volutpat lacus laoreet. Vulputate odio ut enim blandit volutpat maecenas. Sagittis vitae et leo duis. Ante in nibh mauris cursus mattis molestie a. Vulputate enim nulla aliquet porttitor lacus luctus. Urna et pharetra pharetra massa massa ultricies mi. Aliquam sem et tortor consequat id porta nibh. Consequat ac felis donec et odio pellentesque diam volutpat commodo. At elementum eu facilisis sed odio. Mattis pellentesque id nibh tortor id. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Quis risus sed vulputate odio ut enim blandit volutpat maecenas.
-          </div>
+    <div class="container" maxwidth=600px>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Contact me</h1>
         </div>
       </div>
-    
+      <form>
+       
+        <div class="row">
+          <div class="col-md-12">
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+        </div>
+       
+        <div class="row">
+          <div class="col-md-12">
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+        </div>
+       
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+    </div>
+
 </body>
-</html>

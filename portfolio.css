@@ -1,0 +1,36 @@
+h1 {
+    border-bottom: 5px solid royalblue;
+    }
+    
+    body {
+    background-color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    background-color: white; 
+    }
+
+    
+    .row {
+        margin-bottom: 25px;
+        }
+
+    .img-thumbnail {
+position: relative; 
+    }
+
+    .text-block {
+        position: absolute;
+        bottom: 20px;
+        left: 27px;
+        background-color: royalblue;
+        color: white;
+        padding-left: auto;
+        padding-right: 20px;
+      }
