@@ -38,3 +38,8 @@ body {
         border-color: royalblue;
 
     }
+
+    .LI-profile-badge {
+        position: center;
+        margin-bottom: 5%;
+    }
